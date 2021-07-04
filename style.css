@@ -1,0 +1,48 @@
+body{
+    font-family: 'Zen Loop', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.divfifty{
+    width: 50%;
+    padding-left: 30px;
+
+}
+.divfifty img{
+    width: 98%;
+}
+.hireme-button{
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.firstsec{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.secondsec{
+    margin-top: 20px;
+}
+.download-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 40px;
+    border-radius: 3px;
+}
+.secondsec{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
