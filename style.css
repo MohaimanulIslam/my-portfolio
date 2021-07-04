@@ -8,8 +8,9 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexibleOne{
     display: flex;
+    margin-bottom: 150px;
 }
 .divfifty{
     width: 50%;
@@ -31,9 +32,7 @@ section{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.secondsec{
-    margin-top: 20px;
-}
+
 .download-button{
     text-decoration: none;
     color: white;
@@ -45,4 +44,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.webdev{
+   
+    box-shadow: 10px 10px 50px gray;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5%;
+
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#full-stack-id{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+
+}
+#baby-web-id{
+
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+
+   
 }
